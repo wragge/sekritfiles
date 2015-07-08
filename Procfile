@@ -1,0 +1,1 @@
+web: gunicorn sekrits:app --log-file=-
