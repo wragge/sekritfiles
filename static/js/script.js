@@ -15,6 +15,7 @@ $(function() {
             $("#result").append("<h4>INCORRECT</h4>");
             $("#result").append("<p>No, this title was created using a <a href='https://github.com/jsvine/markovify'>Markov chain generator</a> trained on a list of files from the National Archives of Australia, closed to public access under section 33(1)(a) of the <a href='http://www.austlii.edu.au/au/legis/cth/consol_act/aa198398/s33.html'>Archives Act</a> because they have been judged to contain: &lsquo;information or matter the disclosure of which under this Act could reasonably be expected to cause damage to the security, defence or international relations of the Commonwealth&rsquo;.</p><p>The file title seemed plausible even though it was generated from a bundle of words. What does that tell you about the language of national security?</p>");
         }
+        $("#reload").removeClass("invisible");
     });
 
 });
